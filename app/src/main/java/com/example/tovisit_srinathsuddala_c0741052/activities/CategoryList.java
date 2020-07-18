@@ -52,9 +52,12 @@ public class CategoryList extends AppCompatActivity {
         // put values into map
         categorynames.add("Health");
         categorynames.add("Food");
+        categorynames.add("Entertainment");
 
         categoryimages.add(R.drawable.hospital);
         categoryimages.add(R.drawable.food);
+        categoryimages.add(R.drawable.ic_games_24px);
+
 
         recyclerViewCategories = (RecyclerView) findViewById(R.id.rvCategories);
         // set up the RecyclerView

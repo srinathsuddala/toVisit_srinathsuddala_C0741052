@@ -74,6 +74,13 @@ public class SubCategoryList extends AppCompatActivity {
                 valSubcategories.add("Cafe");
                 valSubcategories.add("Bakery");
                 break;
+            case "Entertainment":
+                // create list one and store values
+                valSubcategories = new ArrayList<String>();
+                valSubcategories.add("museum");
+                valSubcategories.add("night_club");
+                valSubcategories.add("movie_theater");
+                break;
         }
 
         categoryimages.add(R.drawable.hospital);
